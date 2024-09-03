@@ -1,13 +1,13 @@
-import react from 'react'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import Home from '../pages/Home'
 import Register from '../pages/Register'
 import Login from '../pages/Login'
 import Contact from '../pages/Contact'
 
+
 const Routing = () =>{
 return(
-    <Router>
+
         <Routes>
         <Route path="/" element={""}/>
         <Route path="/Home" element={<Home />} />
@@ -15,7 +15,7 @@ return(
         <Route path="/Login" element={<Login />}/>
         <Route path="/Contact" element={<Contact />}/>
         </Routes>
-    </Router>
+
 )
 
 }

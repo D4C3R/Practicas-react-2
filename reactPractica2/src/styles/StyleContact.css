@@ -1,0 +1,17 @@
+body{
+background-color: rgb(255, 255, 255);
+}
+.form{
+background-color: rgb(255, 0, 0);
+color: black;
+width: 100vw;
+height: 35vw;
+}
+.info{
+background-color: rgb(255, 255, 255);
+color: black;
+width: 100vw;
+height: 15vw;
+display: flex;
+
+}

@@ -1,0 +1,25 @@
+body{
+    overflow: hidden;
+    gap: 0;
+}
+.banner{
+    background-color: rgb(255, 255, 255);
+    color: #000;
+    width: 100vw;
+    height: 4vw;
+    gap: 0;
+    margin: 0;
+    padding: 0;
+    display: block; /* o flex, grid, etc. según tu diseño */
+  box-sizing: border-box;
+
+}
+.pHome{
+    background-color: blue;
+    height: 46vw;
+    gap: 0;
+    margin: 0;
+    padding: 0;
+    display: block; /* o flex, grid, etc. según tu diseño */
+  box-sizing: border-box;
+}

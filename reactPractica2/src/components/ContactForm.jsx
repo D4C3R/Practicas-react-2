@@ -1,7 +1,9 @@
 import React from 'react';
+import '../styles/StyleContact.css'
 
 function ContactForm() {
   return (
+    <div className='form'>
     <form>
       <div>
         <label htmlFor="name">Name:</label>
@@ -17,6 +19,7 @@ function ContactForm() {
       </div>
       <button type="submit">Send</button>
     </form>
+    </div>
   );
 }
 

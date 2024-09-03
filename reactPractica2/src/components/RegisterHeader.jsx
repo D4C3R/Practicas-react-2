@@ -1,4 +1,5 @@
 import React from 'react';
+import '../styles/StyleRegister.css'
 
 function RegisterHeader() {
   return (
